@@ -1,0 +1,124 @@
+.menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	background: white;
+	width: 100%;
+	top: 0;
+}
+.menu a {
+	text-decoration: none;
+	color: darkblue;
+	margin: 0 70px;
+}
+.menu a:hover {
+	color: rgb(259, 125, 52);
+}
+.logo {
+	width: 40px;
+}
+header {
+	background-image: url(img/innsbruck1.png);
+	display: flex;
+	align-items: center;
+	padding: 200px 0 200px 19%;
+	color: white;
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+li::before {
+	content: "✓";
+}
+aside {
+	background-image: url(img/skier.png);
+	margin: 30px;
+	width: 250px;
+	height: 190px;
+	background-size: 100%;
+}
+.flexabout {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.sr {
+	color: black;
+	text-decoration: none;
+	background: silver;
+	text-align: right;
+}
+.srlink {
+	text-align: right;
+	margin-top: 65px;
+}
+main {
+	padding: 0 10%;
+}
+ul {
+	line-height: 30px;
+}
+figcaption {
+	background: grey;
+	color: white;
+	padding: 5px 0;
+	width: 100%;
+	text-align: center;
+}
+figure {
+	border: solid grey 1px;
+	width:100%;
+}
+.weather {
+	width: 100%;
+}
+.pgallary {
+	background: rgb(186, 208, 195);
+	color: white;
+	padding: 13%;
+	width: 30%;
+	margin: 5px 0;
+	text-align: center;
+}
+.imggallary {
+	width: 50%;
+	margin: 5px 0 5px 0;
+}
+.flexgallary1,.flexgallary2, .flexgallary3 {
+	display: flex;
+	justify-content: space-between;
+}
+iframe {
+	width: 100%;
+}
+td, th {
+	border: solid black 1px;
+	padding: 7px;
+	text-align: center;
+}
+table {
+	border-collapse: collapse;
+	width: 70%;
+	margin: auto;
+}
+th {
+	color: white;
+	background: rgb(35, 46, 88);
+}
+footer {
+	display: flex;
+	justify-content: space-around;
+	background: rgb(186, 208, 195);
+	padding: 20px 0;
+	margin-top: 10px;
+	align-items: center;
+}
+.alogo {
+	padding: 7px;
+}

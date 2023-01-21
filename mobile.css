@@ -1,0 +1,88 @@
+@media (max-width: 575px) {
+	.menu {
+		position: static;
+		display: block;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.menu a {
+			display: block;
+			text-align: center;
+			margin: auto;
+	}
+	.atext {
+		border-bottom: silver solid 0.5px;
+		padding: 0 5px;
+		width: 95%;
+	}
+	.flexabout {
+		display: block;
+	}
+	figure {
+		margin: 0;
+	}
+	.flexgallary1,.flexgallary2, .flexgallary3 {
+		flex-direction: column;
+
+	}
+	.flexgallary2 {
+		flex-direction: column-reverse;
+	}
+	.pgallary {
+		width: 74%;
+	}
+	.imggallary {
+	width: 100%;
+	margin: 5px 0 5px 0;
+	}
+	tr {
+		padding: 10px;
+		margin: 20px
+	}
+	main {
+		box-sizing: border-box;
+	}
+	.thabsolute1, .thabsolute2 {
+		position: absolute;
+		top: 250px;
+		left: 0;
+		width: 96px;
+	}
+	table {
+		position: relative;
+		margin-bottom: 400px;
+	}
+	.thabsolute2 {
+		left: 50%;
+	}
+	.tdabsolute {
+		top: 300px;
+		position: absolute;
+		left: 0;
+		width: 96px;
+	}
+	.tdabsolute12 {
+		left: 50%;
+	}
+	.tdabsolute3, .tdabsolute4 {
+		top: 334px;
+	}
+	.tdabsolute5, .tdabsolute6 {
+		top: 367px;
+	}
+	.tdabsolute7, .tdabsolute8 {
+		top: 400px;
+	}
+	.tdabsolute9, .tdabsolute10 {
+		top: 434px;
+	}
+	.visitin, .logolink, .FoxArt { 
+		display: block;
+	}
+	footer {
+		display: block;
+		text-align: center;
+	}
+	
+
+}
